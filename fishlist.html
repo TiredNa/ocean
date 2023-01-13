@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/fishlist.css">
+   
+
+   <!-- custom js file link  -->
+   <script src="script.js" defer></script>
+  
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Admin Panel</title>
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+    <!-- <i class='bx bxs-basket'></i>-->
+    <img src="images/Oceanus logo pxp.png" class="oceanus"></i>
+      <span class="logo_name">Oceanus</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="admin_page.php">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        <!-- <li>
+          <a href="#">
+            <i class='bx bx-user' ></i>
+            <span class="links_name">Customers</span>
+          </a>
+        </li> -->
+        <li>
+          <a href="fishlist.html" class="active">
+            <i class='bx bx-folder'></i>
+            <span class="links_name">Fish List</span>
+          </a>
+        </li>
+        <li>
+          <a href="orders.php">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name">Order list</span>
+          </a>
+        </li>
+        <li>
+          <a href="accounts.php">
+            <i class='bx bx-user-pin'></i>
+            <span class="links_name">Accounts</span>
+          </a>
+        </li>
+        <!-- <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">Setting</span>
+          </a>
+        </li> -->
+        <li class="log_out">
+          <a href="logout.php">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='bx bx-search' ></i>
+      </div>
+      <div class="profile-details">
+        <img src="images/Oceanus logo pxp.png" alt="">
+        <span class="admin_name">Debby Mong</span>
+        <i class='bx bx-chevron-down' ></i>
+      </div>
+    </nav>
+
+      
+      <!-- Fish COntent -->
+        <div class="container">
+            <h3 class="title"> OCEANUS FISH LIST </h3>
+        
+           <div class="products-container">
+              <div class="product" data-name="p-1">
+                 <img src="images/Amano Shrimp.png" alt="">
+                 <h3>Amano Shrimp</h3>
+                 <!-- <div class="price">$2.00</div> -->
+              </div>
+        
+              <div class="product" data-name="p-2">
+                 <img src="images/Betta.jpg" alt="">
+                 <h3>Beta Fish</h3>
+                 <!-- <div class="price">$2.00</div> -->
+              </div>
+        
+              <div class="product" data-name="p-3">
+                 <img src="images/Blue Angelfish.png" alt="">
+                 <h3>Angel Fish</h3>
+                 <!-- <div class="price">$2.00</div> -->
+              </div>
+        
+              <div class="product" data-name="p-4">
+                 <img src="images/Cherry Shrimp.png" alt="">
+                 <h3>Shrimp</h3>
+                 <div class="price">$2.00</div>
+              </div>
+        
+              <div class="product" data-name="p-5">
+                 <img src="images/Clownfish.png" alt="">
+                 <h3>Clownfish</h3>
+                 <!-- <div class="price">$2.00</div> -->
+              </div>
+        
+              <div class="product" data-name="p-6">
+                 <img src="images/Fancy Guppy.png" alt="">
+                 <h3>Guppy</h3>
+                 <!-- <div class="price">$2.00</div> -->
+              </div>
+        
+              <div class="product" data-name="p-7">
+                <img src="images/Firemouth.png" alt="">
+                <h3>Firemouth</h3>
+                <!-- <div class="price">$2.00</div> -->
+             </div>
+        
+             <div class="product" data-name="p-8">
+                <img src="images/Flowerhorn cichlids.png" alt="">
+                <h3>Cichilids</h3>
+                <!-- <div class="price">$2.00</div> -->
+             </div>
+        
+             <div class="product" data-name="p-9">
+                <img src="images/Gobby.png" alt="">
+                <h3>Gobby</h3>
+                <!-- <div class="price">$2.00</div> -->
+             </div>
+        
+             <div class="product" data-name="p-10">
+                <img src="images/Gold Fish.png" alt="">
+                <h3>Gold Fish</h3>
+                <!-- <div class="price">$2.00</div> -->
+             </div>
+        
+             <div class="product" data-name="p-11">
+                <img src="images/Green Spotted Pufferfish.png" alt="">
+                <h3>Pufferfish</h3>
+                <!-- <div class="price">$2.00</div> -->
+             </div>
+        
+             <div class="product" data-name="p-12">
+                <img src="images/Harlequin Fish.png" alt="">
+                <h3>Harlequin</h3>
+                <!-- <div class="price">$2.00</div> -->
+             </div>
+        
+             <div class="product" data-name="p-13">
+                <img src="images/Puntius Barbs.png" alt="">
+                <h3>Barbs</h3>
+                <!-- <div class="price">$2.00</div> -->
+             </div>
+        
+             <div class="product" data-name="p-14">
+                <img src="images/Rasbora.jpg" alt="">
+                <h3>Rasbora</h3>
+                <!-- <div class="price">$2.00</div> -->
+             </div>
+        
+             <div class="product" data-name="p-15">
+                <img src="images/Snakehead betta.png" alt="">
+                <h3>Betta</h3>
+                <!-- <div class="price">$2.00</div> -->
+             </div>
+        
+             <div class="product" data-name="p-16">
+                <img src="images/Zebra Danio.png" alt="">
+                <h3>Danio</h3>
+                <!-- <div class="price">$2.00</div> -->
+             </div>
+        
+           </div>
+        
+        </div>
+        
+        <div class="products-preview">
+        
+           <div class="preview" data-target="p-1">
+              <i class="fas fa-times"></i>
+              <img src="images/Amano Shrimp.png" alt="">
+              <h3>Amano Shrimp</h3>
+              <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-half-alt"></i>
+                 <span>( 250 )</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+              <div class="price">$2.00</div>
+           </div>
+        
+           <div class="preview" data-target="p-2">
+              <i class="fas fa-times"></i>
+              <img src="images/Beta Fish.png" alt="">
+              <h3>Beta Fish</h3>
+              <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-half-alt"></i>
+                 <span>( 250 )</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+              <div class="price">$2.00</div>
+              
+           </div>
+        
+           <div class="preview" data-target="p-3">
+              <i class="fas fa-times"></i>
+              <img src="images/Blue Angelfish.png" alt="">
+              <h3>Blue Angelfish</h3>
+              <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-half-alt"></i>
+                 <span>( 250 )</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+              <div class="price">$2.00</div>
+           </div>
+        
+           <div class="preview" data-target="p-4">
+              <i class="fas fa-times"></i>
+              <img src="images/Cherry Shrimp.png" alt="">
+              <h3>Cherry Shrimp</h3>
+              <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-half-alt"></i>
+                 <span>( 250 )</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+              <div class="price">$2.00</div>
+           </div>
+        
+           <div class="preview" data-target="p-5">
+              <i class="fas fa-times"></i>
+              <img src="images/Clownfish.png" alt="">
+              <h3>Clownfish</h3>
+              <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-half-alt"></i>
+                 <span>( 250 )</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+              <div class="price">$2.00</div>
+           </div>
+        
+           <div class="preview" data-target="p-6">
+              <i class="fas fa-times"></i>
+              <img src="images/Fancy Guppy.png" alt="">
+              <h3>Fancy Guppy</h3>
+              <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-half-alt"></i>
+                 <span>( 250 )</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+              <div class="price">$2.00</div>
+           </div>
+           
+           <div class="preview" data-target="p-7">
+            <i class="fas fa-times"></i>
+            <img src="images/Firemouth.png" alt="">
+            <h3>Firemouth</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+               <span>( 250 )</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+            <div class="price">$2.00</div>
+         </div>
+
+         <div class="preview" data-target="p-8">
+            <i class="fas fa-times"></i>
+            <img src="images/Flowerhorn cichlids.png" alt="">
+            <h3>Flowerhorn cichlids</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+               <span>( 250 )</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+            <div class="price">$2.00</div>
+         </div>
+
+         <div class="preview" data-target="p-9">
+            <i class="fas fa-times"></i>
+            <img src="images/Gobby.png" alt="">
+            <h3>Gobby</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+               <span>( 250 )</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+            <div class="price">$2.00</div>
+         </div>
+
+         <div class="preview" data-target="p-10">
+            <i class="fas fa-times"></i>
+            <img src="images/Gold Fish.png" alt="">
+            <h3>Gold Fish</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+               <span>( 250 )</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+            <div class="price">$2.00</div>
+         </div>
+
+         <div class="preview" data-target="p-11">
+            <i class="fas fa-times"></i>
+            <img src="images/Green Spotted Pufferfish.png" alt="">
+            <h3>Green Spotted Pufferfish.png</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+               <span>( 250 )</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+            <div class="price">$2.00</div>
+         </div>
+
+         <div class="preview" data-target="p-12">
+            <i class="fas fa-times"></i>
+            <img src="images/Harlequin Fish.png" alt="">
+            <h3>Harlequin</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+               <span>( 250 )</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+            <div class="price">$2.00</div>
+         </div>
+        
+         <div class="preview" data-target="p-13">
+            <i class="fas fa-times"></i>
+            <img src="images/Puntius Barbs.png" alt="">
+            <h3>Puntius Barbs</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+               <span>( 250 )</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+            <div class="price">$2.00</div>
+         </div>
+
+         <div class="preview" data-target="p-14">
+            <i class="fas fa-times"></i>
+            <img src="images/Rasbora.jpg" alt="">
+            <h3>Rasbora</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+               <span>( 250 )</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+            <div class="price">$2.00</div>
+         </div>
+
+         <div class="preview" data-target="p-15">
+            <i class="fas fa-times"></i>
+            <img src="images/Snakehead betta.png" alt="">
+            <h3>Snakehead Betta</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+               <span>( 250 )</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+            <div class="price">$2.00</div>
+         </div>
+
+         <div class="preview" data-target="p-16">
+            <i class="fas fa-times"></i>
+            <img src="images/Zebra Danio.png" alt="">
+            <h3>Zebra Danio</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+               <span>( 250 )</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+            <div class="price">$2.00</div>
+         </div>
+
+
+
+        </div>
+        </div>
+      <!-- Fish COntent -->
+    </div>
+
+
+  <script>
+   let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".sidebarBtn");
+sidebarBtn.onclick = function() {
+  sidebar.classList.toggle("active");
+  if(sidebar.classList.contains("active")){
+  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+}else
+  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+}
+ </script>
+
+</body>
+</html>
+

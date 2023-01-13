@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta http-equiv="E-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GO FISH Online</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/all.css">
+        <!-- <link rel="stylesheet" href="water.css"> -->
+
+        <script src="https://kit.fontawesome.com/8abb4b207c.js" crossorigin="anonymous"></script>
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        
+        <link rel="stylesheet" href="water.css">
+    
+    </head>
+
+    <body>
+
+        <!-- Sa una design -->
+
+        <section id="header">
+            <a href="#"><img src="Imgs/Oceanus header.png" class="logo" alt=""></a>
+        
+            <div>
+                <ul id="navbar">
+                  <h3 class="name-tag">Hi, <span>user </span> <?php echo $_SESSION['user_name'] ?></h3>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop </a></li>
+                    <li><a href="blog.html">Fish Guide</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="ig-bag"><a href="logout.php"><i class="bx bx-log-out"></i></a></li> 
+                    <a href="#" id="close"><i class="fa fa-window-close" aria-hidden="true"></i></a>
+                </ul>
+            </div>
+
+          <!-- mobile -->
+            <div id="mobile">
+              <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+              <i id="bar" class="fas fa-outdent"></i>
+            </div>
+
+        </section>
+
+          <!-- kaduha na design -->
+
+        <div class="header">
+
+            <!--Content before waves-->
+
+            <div class="inner-header flex">
+            
+                  <path fill="#fff" d="M250.4,0.8C112.7,0.8,1,112.4,1,250.2c0,137.7,111.7,249.4,249.4,249.4c137.7,0,249.4-111.7,249.4-249.4
+          C499.8,112.4,388.1,0.8,250.4,0.8z M383.8,326.3c-62,0-101.4-14.1-117.6-46.3c-17.1-34.1-2.3-75.4,13.2-104.1
+          c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3,62.4c-19.8,19.1-51.6,26.9-100.2,24.6l1.8-39.7		c35.9,1.6,59.7-2.9,70.8-13.6c8.9-8.6,11.1-22.9,13.5-39.6c6.3-42,14.8-99.4,141.4-99.4h41L333,166c-12.6,16-45.4,68.2-31.2,96.2	c9.2,18.3,41.5,25.6,91.2,24.2l1.1,39.8C390.5,326.2,387.1,326.3,383.8,326.3z" />
+                </g>
+              </svg>
+
+              <section id="hero">
+                <h4>A fish that make you smiled</h4>
+                <h2>Oceanus</h2>
+                <h1>Life Direct to Your Door</h1>
+                <p>Discover the magnificence of our aquatic pals in their natural habitats.</p>
+                <button>Shop Now</button> 
+                </section>
+                
+
+            </div>
+          
+            <!--Waves Container-->
+            <div>
+              <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                  <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                  <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                  <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                  <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                </g>
+              </svg>
+            </div>
+            <!--Waves end-->
+          
+          </div>
+          <!--Header ends-->
+          
+          <!--Content starts-->
+          <div class="content flex">
+          </div>
+          <!--Content ends-->
+
+          <!-- BOX SECTIONS -->
+          <section id="feature" class="section-p1">
+            <div class="fe-box">
+                <img src="Imgs/features/f1.png" alt="">
+                <h6>Free Shipping</h6>
+            </div>
+            <div class="fe-box">
+              <img src="Imgs/features/f2.png" alt="">
+              <h6>Online Order</h6>
+          </div>
+          <div class="fe-box">
+            <img src="Imgs/features/f3.png" alt="">
+            <h6>Save Money</h6>
+        </div>
+        <div class="fe-box">
+          <img src="Imgs/features/f4.png" alt="">
+          <h6>Fish Book</h6>
+      </div>
+      <div class="fe-box">
+        <img src="Imgs/features/f5.png" alt="">
+        <h6>Happy Sell</h6>
+    </div>
+    <div class="fe-box">
+      <img src="Imgs/features/f6.png" alt="">
+      <h6>25/7 Support</h6>
+  </div>
+          </section>
+
+          <!-- Product -->
+
+
+          <!-- BANNER DESIGN -->
+
+          <section id="banner" class="section-m1">
+            <h4>LiveAquaria®</h4>
+            <h2>Up to <span>70% off</span> Shop ALL LiveAquaria® Brand Products </h2>
+            <button class="normal">Explore More</button>
+          </section>
+
+          <!-- PRODUCT 2 -->
+          
+          <section id="product1" class="section-p1">
+            <h2>New Arrival</h2>
+            <p>Exclusively Aviable on Freshwater Fish</p>
+            <div class="pro-container">
+
+              <!-- product design 1 -->
+
+              <div class="pro">
+                <img src="Imgs/products/1 (9).jpg" alt="">
+                <div class="des">
+                  <span>Gymnocorymbus sp.</span>
+                  <h5>Moonrise Pink® Tetra</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4>₱ 2,064.41</h4>
+                </div>
+                <a href="#" class="cart"><i class="fa-solid fa-cart-arrow-down"></i></a>
+              </div>
+              
+              <!-- product design 2 -->
+
+              <div class="pro">
+                <img src="Imgs/products/1 (10).jpg" alt="">
+                <div class="des">
+                  <span>Carassius auratus</span>
+                  <h5>Red Ryukin Goldfish</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4>₱ 524.42</h4>
+                </div>
+                <a href="#" class="cart"><i class="fa-solid fa-cart-arrow-down"></i></a>
+              </div>
+
+              <!-- product design 3 -->
+
+              <div class="pro">
+                <img src="Imgs/products/1 (11).jpg" alt="">
+                <div class="des">
+                  <span>Gymnocorymbus sp</span>
+                  <h5>Galactic Purple</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4>₱ 1,961.16</h4>
+                </div>
+                <a href="#" class="cart"><i class="fa-solid fa-cart-arrow-down"></i></a>
+              </div>
+              
+              <!-- product design 3 -->
+
+              <div class="pro">
+                <img src="Imgs/products/1 (12).jpg" alt="">
+                <div class="des">
+                  <span>Carassius auratus</span>
+                  <h5>Calico Oranda Goldfish</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4>₱ 412.41</h4>
+                </div>
+                <a href="#" class="cart"><i class="fa-solid fa-cart-arrow-down"></i></a>
+              </div>
+
+              <!-- product design 4 -->
+
+              <div class="pro">
+                <img src="Imgs/products/1 (13).jpg" alt="">
+                <div class="des">
+                  <span>Carassius auratus</span>
+                  <h5>Telescope Goldfish, Red</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4>₱ 530.41</h4>
+                </div>
+                <a href="#" class="cart"><i class="fa-solid fa-cart-arrow-down"></i></a>
+              </div>
+
+              <!-- product design 5 -->
+
+              <div class="pro">
+                <img src="Imgs/products/1 (14).jpg" alt="">
+                <div class="des">
+                  <span>Carassius auratus</span>
+                  <h5>Telescope Goldfish, Assorted</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4>₱ 530.41</h4>
+                </div>
+                <a href="#" class="cart"><i class="fa-solid fa-cart-arrow-down"></i></a>
+              </div>
+
+              <!-- product design 6 -->
+
+              <div class="pro">
+                <img src="Imgs/products/1 (15).jpg" alt="">
+                <div class="des">
+                  <span>Carassius auratus</span>
+                  <h5>Tricolor Butterfly Panda Goldfish</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4>₱ 4,719.41</h4>
+                </div>
+                <a href="#" class="cart"><i class="fa-solid fa-cart-arrow-down"></i></a>
+              </div>
+              
+              <!-- product design 7 -->
+
+              <div class="pro">
+                <img src="Imgs/products/1 (16).jpg" alt="">
+                <div class="des">
+                  <span>Carassius auratus</span>
+                  <h5>Red Ryukin Goldfish</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4>₱ 1,592.41</h4>
+                </div>
+                <a href="#" class="cart"><i class="fa-solid fa-cart-arrow-down"></i></a>
+              </div>
+
+
+
+
+            </div>
+            
+          </section>
+
+          <!-- SM BANNER -->
+
+          <section id="sm-banner" class="section-p1">
+            <div class="banner-box">
+              <h4>WEEKLY SPECIAL</h4>
+              <h2>Buy 1 get 1 free</h2>
+              <span>100% of NEW special New Live</span>
+              <button class="white">Shop now</button>
+            </div>
+            
+            <div class="banner-box banner-box2">
+              <h4>CRAZY DEALS</h4>
+              <h2>upcomming season</h2>
+              <span>The best classic dress is on sale at cara</span>
+              <button class="white">Shop now</button>
+            </div>
+          </section>
+
+          <section id="banner3">
+            <div class="banner-box ">
+              <h2>CRAZY DEAL</h2>
+              <H3>100's of NEW Specials Now Sale!</H3>
+            </div>
+            <div class="banner-box banner-box2">
+              <h2>Popular Vale Packs</h2>
+              <H3>Bundle and SAVE on qaulity
+                freshwater and saltwater
+                aquatic life and supplies!</H3>
+            </div>
+            <div class="banner-box banner-box3">
+              <h2>EVERY DAY NEW DEALS</h2>
+              <H3>50% OFF</H3>
+            </div>  
+          </section>
+          <!-- SM BANNER -->
+
+          <!-- END PAGE -->
+
+          <section id="newletter" class="section-p1 section-m1" >
+            <div class="newstext">
+                <h4>Sign Up for Newsletter</h4>
+                <p>Get E-mail updates about our latest shop and <span>special offers</span> 
+                </p>
+            </div>
+            <div class="form">
+              <input type="text" placeholder="Your email address">
+              <button class="normal">Sign Up</button>
+          </div>
+          </section>
+
+          <footer class="section-p1">
+              <div class="col">
+                <img class="logo" src="Imgs/Oceanus logo pxp.png" alt="">
+                <h4>Contact</h4>
+                <p><strong>Address: </strong> Valencia City</p>
+                <p><strong>Phone:</strong> 09352651075</p>
+                <p><strong>Hours: </strong> 8AM to 5PM Mon-Sat</p>
+                <div class="follow">
+                  <h4>Follow Us</h4>
+                  <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                  </div>
+                </div>
+              </div>
+
+              
+
+
+              <div class="col">
+                <h4>About</h4>
+                <a href="#">About us</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+              </div>
+
+
+              <div class="col">
+                <a href="#">Sign In</a>
+                <a href="#">Help</a>
+              </div>
+              
+              <div class="col install">
+              </div>
+              
+
+          </footer>
+
+          <footer>
+            <div class="copyright">
+              <p>2022, Oceanus - Shop for you Fish</p>
+            </div>
+          </footer>
+
+
+          <!-- END PAGE -->
+
+    <script src="script.js"></script>
+    </body>
+</html>     

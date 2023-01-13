@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta http-equiv="E-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="CodeHim">
+        <title>JavaScript Vanilla Shopping Cart Example</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <title>GO FISH Online</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="cart/cartstyle.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <script src="https://kit.fontawesome.com/8abb4b207c.js" crossorigin="anonymous"></script>
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        
+  
+    </head>
+
+    <body>
+
+
+                
+        <!-- Sa una design -->
+
+        <section id="header">
+            <a href="#"><img src="Imgs/Oceanus header.png" class="logo" alt=""></a>
+        
+            <div>
+                <ul id="navbar">
+                    <li><a href="user_page.php">Home</a></li>
+                    <li><a class="active" href="shop.html">Shop </a></li>
+                    <li><a href="blog.html">Fish Guide</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li id="ig-bag"><a href="logout.php"><i class="bx bx-log-out"></i></a></li> 
+                    <a href="#" id="close"><i class="fa fa-window-close" aria-hidden="true"></i></a>
+                </ul>
+            </div>
+
+          <!-- mobile -->
+            <div id="mobile">
+              <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+              <i id="bar" class="fas fa-outdent"></i>
+            </div>
+
+        </section>
+
+          <!-- kaduha na design -->
+
+        <div class="header">
+
+              <section id="page-header">
+                
+                <h2>“Fish are friends, not food.”</h2>
+               
+                <p>Save more with coupon & up to 50% off!</p>
+
+                </section>
+                
+
+            </div>
+          
+            <!--Waves Container-->
+
+            <!--Waves end-->
+          
+          </div>
+          <!--Header ends-->
+          
+          <!--Content starts-->
+          <div class="content flex">
+          </div>
+          <!--Content ends-->
+
+                            <!-- Start DEMO HTML (Use the following code into your project)-->
+                            <div class="cart-modal-overlay">
+                              <h2 class="cart-namesss">Your Cart</h2>
+                              <div class="cart-modal">
+                                <i id="close-btn" class="fas fa-times"></i>
+                                  <h1 class="cart-is-empty">Cart is empty</h1>
+                                  <div class="product-rows">
+                                  </div>
+                                  <div class="total">
+                                    <h1 class="cart-total">TOTAL</h1>
+                                      <span class="total-price">₱0</span>
+                                        <button class="purchase-btn">PURCHASE</button>
+                                  </div>
+                                </div>
+                          </div>
+
+          <!-- Product -->
+
+          <main id="product1" class="section-p1">
+
+                      
+       <!--   end of cart modal -->
+         <div class="cart-btn">
+           <i id="cart" class="fas fa-shopping-cart"></i>
+             <span class ="cart-quantity">0</span>
+         </div>
+       <!--  products  -->
+         <div class="items-container">
+
+          <div class="card-1-card">
+            <img class="product-image" src="./images/Fancy Guppy.png" alt="">
+            <span>Poecilia Reticulata</span>
+              <button class="add-to-cart"><i class='bx bxs-cart-alt'></i>Add to cart</button>
+              <h5 class="nametag"><a href="Fishbook List/Clown Fish.html">Fancy Guppy</a> </h5>
+                <h4 class="product-price">₱350</h4>
+           </div>
+           <div class="card-1-card">
+            <img class="product-image" src="./images/Amano Shrimp.png" alt="">
+              <button class="add-to-cart"><i class='bx bxs-cart-alt'></i>Add to cart</button>
+              <span> Carassius auratus</span>
+              <h5 class="nametag"><a class="high-light" href="Fishbook List/Amano Shrimp.html">Amano Shrimp</a> </h5>
+                <h4 class="product-price">₱75</h4></div>
+
+           <div class="card-1-card">
+            <img class="product-image" src="./images/Firemouth.png" alt="">
+              <button class="add-to-cart"><i class='bx bxs-cart-alt'></i>Add to cart</button>
+              <span>Thorichthys meeki</span>
+              <h5 class="nametag"><a href="Fishbook List/Firemouth Cichlid.html">Firemouth Cichlid </a> </h5>
+                <h4 class="product-price">₱120</h4>
+            </div>
+           <div class="card-1-card">
+            <img class="product-image" src="./images/Green Spotted Pufferfish.png" alt="">
+              <button class="add-to-cart"><i class='bx bxs-cart-alt'></i>Add to cart</button>
+              <span>Tetraodon nigroviridis</span>
+              <h5 class="nametag"><a href="Fishbook List/Firemouth Cichlid.html">Green Spotted Pufferfish</a> </h5>
+                <h4 class="product-price">₱200</h4>
+            </div>
+
+          <div class="card-1-card">
+            <img class="product-image" src="./images/Gobby.png" alt="">
+            <span>Sicyopus zosterophorus</span>
+              <button class="add-to-cart"><i class='bx bxs-cart-alt'></i>Add to cart</button>
+              <h5 class="nametag"><a href="Fishbook List/Red Belted Goby.html">Red Belted Goby</a> </h5>
+             <h4 class="product-price">₱175</h4>
+          </div>
+
+           <div class="card-1-card">
+            <img class="product-image" src="./images/Blue Angelfish.png" alt="">
+              <span>Holacanthus bermudensis</span>
+              <button class="add-to-cart"><i class='bx bxs-cart-alt'></i>Add to cart</button>
+              <h5 class="nametag"><a href="Fishbook List/Blue Smokey Angelfish.html">Blue Angelfish</a> </h5>
+              <h4 class="product-price">₱300</h4>
+           </div>
+           <div class="card-1-card">
+            <img class="product-image" src="./images/Clownfish.png" alt="">
+            <span>Amphiprioninae</span>
+              <button class="add-to-cart"><i class='bx bxs-cart-alt'></i>Add to cart</button>
+              <h5 class="nametag"><a href="Fishbook List/Clown Fish.html">Clownfish</a> </h5>
+                <h4 class="product-price">₱120</h4>
+           </div>
+
+           <div class="card-1-card">
+            <img class="product-image" src="./images/Flowerhorn cichlids.png" alt="">
+            <span>Amphilophus hybrid</span>
+              <button class="add-to-cart"><i class='bx bxs-cart-alt'></i>Add to cart</button>
+              <h5 class="nametag"><a href="Fishbook List/Clown Fish.html">Flowerhorn  </a> </h5>
+                <h4 class="product-price">₱100</h4>
+           </div>
+           
+           <div class="card-1-card">
+            <img class="product-image" src="./images/Goldfish.jpg" alt="">
+            <span>Carassius auratus</span>
+              <button class="add-to-cart"><i class='bx bxs-cart-alt'></i>Add to cart</button>
+              <h5 class="nametag"><a href="Fishbook List/Goldfish.html">Lionhead Goldfish  </a> </h5>
+             <h4 class="product-price">₱148.72.</h4>
+           </div>
+
+           <div class="card-1-card">
+            <img class="product-image" src="./images/Betta.jpg" alt="">
+            <span>Carassius auratus</span>
+              <button class="add-to-cart"><i class='bx bxs-cart-alt'></i>Add to cart</button>
+              <h5 class="nametag"><a href="Fishbook List/Bettas.html">Bettas </a> </h5>
+              <h4 class="product-price">₱230</h4>
+            </div>
+
+           <div class="card-1-card">
+            <img class="product-image" src="./images/Harlequin Fish.png" alt="">
+            <span>Carassius auratus</span>
+              <button class="add-to-cart"><i class='bx bxs-cart-alt'></i>Add to cart</button>
+              <h5 class="nametag">Flowerhorn</h5>
+              <h4 class="product-price">₱500.72</h4>
+           </div>
+
+           <div class="card-1-card">
+            <img class="product-image" src="./images/Puntius Barbs.png" alt="">
+            <span>Carassius auratus</span>
+              <button class="add-to-cart"><i class='bx bxs-cart-alt'></i>Add to cart</button>
+              <h5 class="nametag">Gobby</h5>
+                <h4 class="product-price">₱120.00</h4>
+           </div>
+
+           <div class="card-1-card">
+            <img class="product-image" src="./images/Rasbora.jpg" alt="">
+            <span>Carassius auratus</span>
+              <button class="add-to-cart"><i class='bx bxs-cart-alt'></i>Add to cart</button>
+              <h5 class="nametag">Gold Fish</h5>
+                <h4 class="product-price">₱185. 00</h4>
+           </div>
+           
+           <div class="card-1-card">
+            <img class="product-image" src="./images/Snakehead betta.png" alt="">
+            <span>Carassius auratus</span>
+              <button class="add-to-cart"><i class='bx bxs-cart-alt'></i>Add to cart</button>
+              <h5 class="nametag">Green Spotted</h5>
+                <h4 class="product-price">₱90.00</h4>
+            </div>
+           <div class="card-1-card">
+            <img class="product-image" src="./images/Zebra Danio.png" alt="">
+            <span>Carassius auratus</span>
+              <button class="add-to-cart"><i class='bx bxs-cart-alt'></i>Add to cart</button>
+              <h5 class="nametag">Harlequin Fish</h5>
+             <h4 class="product-price">₱255.00</h4>
+            </div>
+
+
+           <div class="card-1-card">
+            <img class="product-image" src="./images/Cherry Shrimp.png" alt="">
+            <span>Carassius auratus</span>
+              <button class="add-to-cart"><i class='bx bxs-cart-alt'></i>Add to cart</button>
+              <h5 class="nametag">Marbled Hatchetfish</h5>
+              <h4 class="product-price">₱150</h4>
+            </div>
+        </main>
+
+          <!-- END PAGE -->
+
+          <section id="newletter" class="section-p1 section-m1" >
+            <div class="newstext">
+                <h4>Sign Up for Newsletter</h4>
+                <p>Get E-mail updates about our latest shop and <span>special offers</span> 
+                </p>
+            </div>
+
+          </section>
+
+          <footer class="section-p1">
+              <div class="col">
+                <img class="logo" src="Imgs/Oceanus logo pxp.png" alt="">
+                <h4>Contact</h4>
+                <p><strong>Address: </strong> Valencia City</p>
+                <p><strong>Phone:</strong> 09352651075</p>
+                <p><strong>Hours: </strong> 8AM to 5PM Mon-Sat</p>
+                <div class="follow">
+                  <h4>Follow Us</h4>
+                  <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                  </div>
+                </div>
+              </div>
+
+              
+
+                <div class="col">
+                  <h4>About</h4>
+                  <a href="about.html">About us</a>
+                  <a href="#">Terms & Conditions</a>
+                  <a href="contact.html">Contact Us</a>
+                </div>
+  
+  
+                <div class="col">
+                  <a href="#">Sign In</a>
+                  <a href="#">Help</a>
+                </div>
+              
+
+          </footer>
+
+          <footer>
+            <div class="copyright">
+              <p>2022, Oceanus - Shop for you Fish</p>
+            </div>
+          </footer>
+
+
+          <!-- END PAGE -->
+
+    <script src="script.js"></script>
+    <script src="cart/cartscript.js"></script>
+    </body>
+</html>     
